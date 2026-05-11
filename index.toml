@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/neofftv-1.6.17.jar"
-hash = "a557a940eaae0d171a7c391ac7a70e4660ad355fdf928e3d805fbbed100b5a34"
+hash = "cf66464ad9d8a6c77d2fe89ffff3e8f7bd88d69d4a11212678d82d094dc08396"
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
