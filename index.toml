@@ -130,6 +130,11 @@ hash = "fcd203d7833e1010941a56f3f8469e8064c87b5e13caa3d16e9ec45bb19cc821"
 metafile = true
 
 [[files]]
+file = "mods/veil.pw.toml"
+hash = "fd700f77d4c67fb9629dee0ffcce779e9d53e6b83a7582dfef64f0e578c8109b"
+metafile = true
+
+[[files]]
 file = "mods/vista_tv.pw.toml"
 hash = "094554b8c5af2dbdcbda924450ffb8e969864ceba5b110bdfa1375ba73d30d27"
 metafile = true
