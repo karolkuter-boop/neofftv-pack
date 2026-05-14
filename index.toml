@@ -36,8 +36,8 @@ hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
-file = "mods/dziwnymod-1.1.2.jar"
-hash = "aaca1641ba6a9538153b69218171082097fc544c4f6a5973571acfc7395b7123"
+file = "mods/dziwnymod-1.1.3.jar"
+hash = "62cfaa73750f94fd086ee6d1e7e51dc6df38fd64cc9f8356b7f92cba0e573bbd"
 
 [[files]]
 file = "mods/effortless-building-sophisticated.pw.toml"
