@@ -11,13 +11,33 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/bbs-cml-edition.pw.toml"
+hash = "3948559df98bd10ef64fb8b01d6db15c1ae15fb03a539c08c024095dcd1600dd"
+metafile = true
+
+[[files]]
+file = "mods/bbs-photon-addon.pw.toml"
+hash = "d353add110d3483d460ca3cee03e26ca9b978d2578e6b7a355f0ba726d16b7e9"
+metafile = true
+
+[[files]]
 file = "mods/connector.pw.toml"
 hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "6ea6284b569b13f45bfe44f9790389de4a2f7cda92c8b3bb94511b600d64c486"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/effortless-building-sophisticated.pw.toml"
+hash = "c94ace0c03a79bb58ae6d7786d9e1b09362b173937e94fc8b79025fcba6230ce"
 metafile = true
 
 [[files]]
@@ -66,6 +86,11 @@ hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-guns-neoforge.pw.toml"
+hash = "27e5f1b72841798214316350ab427ffb4481627337c29e0767b47baf66295e46"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
@@ -105,6 +130,11 @@ hash = "03bfdca138de9c56b29b120a3a1693269951d261916a8bc16e48d0c3576e72fe"
 metafile = true
 
 [[files]]
+file = "mods/photon-editor.pw.toml"
+hash = "37efc39204edb53c2fe56cfeac8d81fc7e7a5fc663aabc7b12d356545b990427"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6812c3faa178cd48c65c5b8e7aeef50bc0b63d8e3b2117065d6179a43d8d3649"
 metafile = true
@@ -132,6 +162,11 @@ metafile = true
 [[files]]
 file = "mods/veil.pw.toml"
 hash = "fd700f77d4c67fb9629dee0ffcce779e9d53e6b83a7582dfef64f0e578c8109b"
+metafile = true
+
+[[files]]
+file = "mods/vista-aeronautics-fix.pw.toml"
+hash = "72010b09a0bf4d7622d86bae25852c88d71f7259eea2d1c6955b90af4935b682"
 metafile = true
 
 [[files]]
