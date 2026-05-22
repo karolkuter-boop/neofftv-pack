@@ -1,12 +1,12 @@
 name = "CML NeoFFTV"
 author = "karolkuter-boop"
-version = "1.25.24"
+version = "1.25.26"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7426905054126138ad5fff9f27957cb3fa4678ea61c3224264d2a2dd0d675e1d"
+hash = "708b741f71664ffdc634deda12ce94a8979e0b3ce57b70a35432874635c71706"
 
 [versions]
 minecraft = "1.21.1"
