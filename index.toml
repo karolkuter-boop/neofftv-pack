@@ -195,6 +195,16 @@ hash = "c6c2a2a76d829b51404602366cb2db44a4578f3e3830f6e642c2df995e63f5c2"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "3bc049adfc03f6bb1cd51872315bf830b79d3f7ecee092d72990fdfb847b4c0e"
+preserve = true
+
+[[files]]
+file = "servers.dat"
+hash = "2ec61ffacbce4275beaa0d59430349d9125edf244ec13e70547791f7ab1808b8"
+preserve = true
+
+[[files]]
 file = "shaderpacks/photon-shader.pw.toml"
 hash = "e9112a2da03f65451c8c949331d71b92546bbd75ff78eac554d27f6c41e1ba29"
 metafile = true
