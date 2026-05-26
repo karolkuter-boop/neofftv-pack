@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/neofftv-client.toml"
-hash = "e7a287c06e62e9365206f0a4bd088f5661d6b4619745bb84906c2b51e99a54f4"
+hash = "355b09a7139f7d5dd6349ff4a37d56e64be99d3129a68a48601f2f1736233cc4"
 
 [[files]]
 file = "config/neofftv-common.toml"

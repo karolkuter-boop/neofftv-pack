@@ -1,4 +1,5 @@
 [hud]
+	# Pokazuje boczny HUD mocy moba (Z/X/C ability slots).
 	showMobPowerHud = true
 	#Allowed Values: RIGHT_RAIL, ABOVE_HOTBAR, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 	hudAnchor = "RIGHT_RAIL"
@@ -13,12 +14,16 @@
 	hudScale = 1.0
 	showCooldownNumbers = true
 	showReadyLabel = true
-	compactHud = false
-	showAbilityTooltips = true
+	# Pack default: true — mniej screen real estate na co dzień.
+	compactHud = true
+	# Pack default: false — tooltipy ability cards rozpraszają w daily play.
+	showAbilityTooltips = false
 
 [rendering]
 	enableWorldDisguiseRender = true
-	enableFirstPersonAppendages = true
+	# Pack default: false — pierwszoosobowe odnóża (creeper/mob) są efektowne
+	# w nagraniu ale na co dzień rozpraszają. K-menu → włącz dla cinematic.
+	enableFirstPersonAppendages = false
 	# Default: 1.0
 	# Range: 0.5 ~ 2.0
 	appendageScale = 1.0
@@ -40,27 +45,44 @@
 	# Default: 1.0
 	# Range: 0.5 ~ 2.0
 	multiLegLayoutMultiplier = 1.0
-	showHeadReattachmentSlimeMarker = true
-	headReattachmentSlimeParticles = true
+	# Pack default: false — markery slime nad re-przyczepionymi głowami =
+	# debug-uful, codzienność = szum.
+	showHeadReattachmentSlimeMarker = false
+	# Pack default: false — ciągłe partykuły śluzu, duży FPS hit + spam.
+	headReattachmentSlimeParticles = false
+	# Pack default: true — odpięte głowy hybrydowe to kluczowy mech-feed.
 	showHybridAttachedHeads = true
-	showFreshHeadGlueRing = true
-	hybridHeadParticles = true
+	# Pack default: false — pierścień świeżego kleju krótko, niech znika.
+	showFreshHeadGlueRing = false
+	# Pack default: false — najcięższy partykuł-spam (tick co frame dla
+	# każdej hybrydy w zasięgu).
+	hybridHeadParticles = false
 
 [tacticalmap]
-	enableCinematicStrikes = true
+	# Pack default: false — cinematic kamera (40-tick dummy ArmorStand +
+	# zoom-on-target) jest wyjątkowo "too much" na co dzień. Operator może
+	# włączyć dla nagrań w tactical map.
+	enableCinematicStrikes = false
 
 [magicVision]
+	# Sam shader-magic-vision dostępny; magicVisionEnabledByDefault=false
+	# → overlay nie wisi w tle dopóki nie naciśniesz V.
 	enableVeilEffects = true
 	magicVisionEnabledByDefault = false
 	#Allowed Values: LOW, MEDIUM, HIGH
-	magicVisionQuality = "MEDIUM"
+	# Pack default: LOW — lekki render gdy V włączone.
+	magicVisionQuality = "LOW"
 	# Default: 96
 	# Range: 16 ~ 256
-	magicVisionMaxTrackedEntities = 96
+	# Pack default: 48 — twardszy cap = oszczędność CPU przy zerg-army.
+	magicVisionMaxTrackedEntities = 48
 	# Default: 36
 	# Range: 4 ~ 160
 	magicVisionMaxTrailPoints = 36
-	enableArmyTacticalOverlay = true
+	# Pack default: false — army tactical overlay (linki, vector lines do
+	# celów) jest piękny w cinematic ale rozprasza na co dzień. M = mapa
+	# ma pełen widok.
+	enableArmyTacticalOverlay = false
 	# Default: 96
 	# Range: 8 ~ 512
 	armyOverlayMaxMembers = 96
@@ -85,10 +107,13 @@
 	# Range: 0.25 ~ 4.0
 	cameraWiggleSprintMultiplier = 1.35
 	#Allowed Values: OFF, WIGGLE, HANDHELD
-	cameraWiggleMode = "HANDHELD"
+	# Pack default: OFF — kamera handheld jest motion-sickness-friendly
+	# tylko podczas nagrania. Daily play = OFF; J keybind toggle_handheld
+	# przełącza gdy chcesz cinematic.
+	cameraWiggleMode = "OFF"
 	# Default: 0.0
 	# Range: 0.0 ~ 3.0
-	cameraWiggleWalkIntensity = 0.9500000000000002
+	cameraWiggleWalkIntensity = 0.95
 	# Default: 0.0
 	# Range: 0.0 ~ 3.0
-	cameraWiggleIdleIntensity = 1.5000000000000004
+	cameraWiggleIdleIntensity = 1.5
