@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "label": "Start streamu (5 min)",
+    "seconds": 300,
+    "title": "START ZA",
+    "color": -11141291
+  },
+  {
+    "id": 2,
+    "label": "Przerwa (10 min)",
+    "seconds": 600,
+    "title": "PRZERWA",
+    "color": -22016
+  },
+  {
+    "id": 3,
+    "label": "Runda (1 min)",
+    "seconds": 60,
+    "title": "RUNDA",
+    "color": -1
+  },
+  {
+    "id": 4,
+    "label": "Odliczanie 30s",
+    "seconds": 30,
+    "title": "ODLICZANIE",
+    "color": -43691
+  },
+  {
+    "id": 5,
+    "label": "Odliczanie 10s",
+    "seconds": 10,
+    "title": "GO!",
+    "color": -10496
+  }
+]

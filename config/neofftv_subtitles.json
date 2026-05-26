@@ -1,0 +1,1815 @@
+[
+  {
+    "id": 1,
+    "label": "Napis 1",
+    "segments": [
+      {
+        "text": "Zjedz",
+        "color": 16777045,
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": " klej",
+        "color": 5635925,
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "displayMode": "TITLE",
+    "durationTicks": 160,
+    "sound": "minecraft:entity.villager.yes",
+    "contextSound": "minecraft:block.chest.open",
+    "targetMode": "SPECIFIC",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 2,
+    "label": "Napis 2",
+    "segments": [
+      {
+        "text": "Gruz!",
+        "color": 16777215,
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "displayMode": "TITLE",
+    "durationTicks": 160,
+    "sound": "minecraft:ambient.underwater.enter",
+    "contextSound": "",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 3,
+    "label": "Napis 3",
+    "segments": [
+      {
+        "text": "szyszki!",
+        "color": 11141290,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "tekst",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "CHAT",
+    "durationTicks": 160,
+    "sound": "minecraft:entity.creeper.primed",
+    "contextSound": "",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 4,
+    "label": "creeper_evo_0_creeperling",
+    "segments": [
+      {
+        "text": "POZIOM 0: CREEPERLING\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Mały syk. Mały wybuch.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 5,
+    "label": "creeper_evo_5_creeper",
+    "segments": [
+      {
+        "text": "POZIOM 5: CREEPER\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Rozsadź ścianę i uciekaj.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 6,
+    "label": "creeper_evo_10_bombs",
+    "segments": [
+      {
+        "text": "POZIOM 10: BOMBY\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Postaw ładunek. Kucnij, żeby odpalić.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 7,
+    "label": "creeper_evo_20_mid_mutant_charge",
+    "segments": [
+      {
+        "text": "POZIOM 20: MUTANT\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Proch ładuje moc szybciej i mocniej.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 8,
+    "label": "creeper_evo_charge_full",
+    "segments": [
+      {
+        "text": "NAŁADOWANY NA FULL\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Teraz uciekają nawet koty.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 9,
+    "label": "creeper_evo_30_mutant_charged",
+    "segments": [
+      {
+        "text": "POZIOM 30: MEGA CREEPER\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Największa forma. Największy krater.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 10,
+    "label": "creeper_story_intro",
+    "segments": [
+      {
+        "text": "OSTATNI CREEPER\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Ucieknij z kociego koloseum.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 11,
+    "label": "creeper_story_cage",
+    "segments": [
+      {
+        "text": "KLATKA OTWARTA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Wyjdź po cichu. Alarm cię zgubi.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 12,
+    "label": "creeper_story_lock",
+    "segments": [
+      {
+        "text": "ZŁAM ZAMEK\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Rozwiąż kod i otwórz przejście.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 13,
+    "label": "creeper_story_heads",
+    "segments": [
+      {
+        "text": "SALA TROFEÓW\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Odzyskaj głowę creepera.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 14,
+    "label": "creeper_story_first_xp",
+    "segments": [
+      {
+        "text": "PIERWSZY XP\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Zbierz poziomy, zanim wrócą koty.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 15,
+    "label": "creeper_story_yard",
+    "segments": [
+      {
+        "text": "KOCI PATROL\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Widzisz ich trasy. Przejdź bokiem.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 16,
+    "label": "creeper_story_tnt_storage",
+    "segments": [
+      {
+        "text": "MAGAZYN TNT\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Zdobądź proch, lont i ładunki.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 17,
+    "label": "creeper_story_gym",
+    "segments": [
+      {
+        "text": "SIŁOWNIA CREEPERÓW\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Rozwal trzy cele bez pudła.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 18,
+    "label": "creeper_story_reset",
+    "segments": [
+      {
+        "text": "PRÓBA NIEUDANA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Reset areny. Jeszcze raz.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 90,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 19,
+    "label": "creeper_story_kittens",
+    "segments": [
+      {
+        "text": "MAŁE KOTY\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Nie walcz długo. Wysadź przejście.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 20,
+    "label": "creeper_story_army",
+    "segments": [
+      {
+        "text": "ARMIA CREEPERÓW\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Przywołaj dzieciaki i wskaż cel.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 21,
+    "label": "creeper_story_portal_fort",
+    "segments": [
+      {
+        "text": "FORT KOTÓW\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Portal jest w środku zamku.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 22,
+    "label": "creeper_story_siege",
+    "segments": [
+      {
+        "text": "SZTURM\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Bomby na bramę. Creepery na mury.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 23,
+    "label": "creeper_story_cat_boss",
+    "segments": [
+      {
+        "text": "MUTANT KOT\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Unikaj skoku. Ładuj ostatni wybuch.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 24,
+    "label": "creeper_story_portal_open",
+    "segments": [
+      {
+        "text": "PORTAL OTWARTY\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Creepery wracają do świata.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 25,
+    "label": "creeper_story_final",
+    "segments": [
+      {
+        "text": "MISJA WYKONANA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Koloseum kotów przestało istnieć.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 26,
+    "label": "prison_intro",
+    "segments": [
+      {
+        "text": "16 MITÓW. 16 CEL.\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Łap żywcem. Powodzenia.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 27,
+    "label": "prison_book_found",
+    "segments": [
+      {
+        "text": "PRZEWODNIK ŁOWCY MITÓW\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Danger Level mówi wszystko.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 28,
+    "label": "prison_legend_scary_sheep",
+    "segments": [
+      {
+        "text": "SCARY SHEEP\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Nie odwracaj się. Wmanewruj ją tyłem.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 29,
+    "label": "prison_legend_blood_villager",
+    "segments": [
+      {
+        "text": "BLOOD VILLAGER\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Łódka go zatrzyma. Klasyk.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 30,
+    "label": "prison_arka_noego",
+    "segments": [
+      {
+        "text": "ARKA NOEGO\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "10 mitów. 30 sekund. Strumień wody.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 31,
+    "label": "prison_legend_headless_steve",
+    "segments": [
+      {
+        "text": "HEADLESS STEVE\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Zaczep go wędką jak rybę.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 32,
+    "label": "prison_legend_blood_golem",
+    "segments": [
+      {
+        "text": "BLOOD GOLEM\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Wystrzel go armatą TNT.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 33,
+    "label": "prison_legend_mimic",
+    "segments": [
+      {
+        "text": "THE MIMIC\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Sprawdź każdą skrzynkę.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 34,
+    "label": "prison_legend_cave_crawler",
+    "segments": [
+      {
+        "text": "CAVE CRAWLER\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Wagonikiem prosto do celi.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 35,
+    "label": "prison_summon_herobrine",
+    "segments": [
+      {
+        "text": "PRZYWOŁANIE HEROBRINE\u0027A\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Złoto. Redstone. Oko endera.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 36,
+    "label": "prison_trap_sand",
+    "segments": [
+      {
+        "text": "PUŁAPKA Z PIASKU\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Stiven, naciśnij teraz.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 37,
+    "label": "prison_stiven_not_now",
+    "segments": [
+      {
+        "text": "STIVEN, NIE TERAZ.\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Reset pułapki. Spróbuj jeszcze raz.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 38,
+    "label": "prison_legend_blood_alex",
+    "segments": [
+      {
+        "text": "BLOOD ALEX\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Wypowiedz jej imię. Megafon w dłoń.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 39,
+    "label": "prison_stiven_bait",
+    "segments": [
+      {
+        "text": "STIVEN JEST PRZYNĘTĄ\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Tak, dosłownie. Zaufaj mi.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 40,
+    "label": "prison_legend_man_fog",
+    "segments": [
+      {
+        "text": "MAN FROM THE FOG\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Nie mrugaj. Patrz na korytarz.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 41,
+    "label": "prison_farlands",
+    "segments": [
+      {
+        "text": "FARLANDS\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "That Thing czeka. Trzymaj się portalu.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 42,
+    "label": "prison_legend_null",
+    "segments": [
+      {
+        "text": "NULL\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Sam wszedł do celi. Dziwne.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 43,
+    "label": "prison_legend_bloop",
+    "segments": [
+      {
+        "text": "THE BLOOP\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Helikopter i magnes. Ostatni boss.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 130,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 44,
+    "label": "prison_stiven_lever",
+    "segments": [
+      {
+        "text": "STIVEN, TRZYMAJ DŹWIGNIĘ\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Magnes się odepnie. Ostrzegałem.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 45,
+    "label": "prison_all_locked",
+    "segments": [
+      {
+        "text": "16/16 CEL ZAMKNIĘTYCH\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Selfie z każdą celą. Brawo.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 46,
+    "label": "prison_betrayal",
+    "segments": [
+      {
+        "text": "HEROBRINE OTWORZYŁ ZAMEK\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Ma wyższą inteligencję niż zakładałem.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 130,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 47,
+    "label": "prison_great_escape",
+    "segments": [
+      {
+        "text": "WIELKA UCIECZKA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Wszystkie naraz. Uciekaj!",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 130,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 48,
+    "label": "prison_no_prison_holds",
+    "segments": [
+      {
+        "text": "ŻADNE WIĘZIENIE ICH NIE UTRZYMA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "CDN.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 140,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 49,
+    "label": "Napis 49",
+    "segments": [
+      {
+        "text": "Nowy napis 49",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "ACTIONBAR",
+    "durationTicks": 160,
+    "sound": "minecraft:ui.button.click",
+    "contextSound": "",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 50,
+    "label": "daily_intro",
+    "segments": [
+      {
+        "text": "CODZIENNIE STRASZNIEJSZY\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Dzień pierwszy wygląda normalnie. To najgorszy znak.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 130,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 51,
+    "label": "daily_day_1_bloodmoon",
+    "segments": [
+      {
+        "text": "PIERWSZA NOC\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Niebo pamięta więcej niż gracz.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 52,
+    "label": "daily_day_3_liminal",
+    "segments": [
+      {
+        "text": "KORYTARZ, KTÓREGO NIE BYŁO\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Zejście pod bazę prowadzi gdzieś indziej.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 53,
+    "label": "daily_day_4_echo",
+    "segments": [
+      {
+        "text": "ECHO CZATU\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Stare wiadomości zaczynają odpowiadać.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 54,
+    "label": "scarier_npc_knows_you",
+    "segments": [
+      {
+        "text": "ON ZNA TWOJE IMIĘ\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Wiedziałem, że wrócisz. Znowu.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 55,
+    "label": "daily_day_5_doppelganger",
+    "segments": [
+      {
+        "text": "SOBOWTÓR\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Stoi za tobą, dopóki na niego patrzysz.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 56,
+    "label": "daily_day_6_black_beacon",
+    "segments": [
+      {
+        "text": "BEACON MROKU\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Baza przestała być bezpieczna.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 57,
+    "label": "scarier_pet_hostile",
+    "segments": [
+      {
+        "text": "COŚ WE MNIE PĘKA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Nawet oswojone rzeczy pamiętają noc.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 110,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 58,
+    "label": "daily_day_7_dagger",
+    "segments": [
+      {
+        "text": "SZTYLET Z JASNOGŁAZU\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Przeznaczony dla cienia.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 120,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 59,
+    "label": "scarier_finale_twist",
+    "segments": [
+      {
+        "text": "ZAWSZE TU BYŁEM\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Lustro nie pokazuje już ciebie.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 140,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 60,
+    "label": "prison_who_is_that",
+    "segments": [
+      {
+        "text": "A KTO TO TAKI?\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 80,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 61,
+    "label": "prison_sponsor_fakeout",
+    "segments": [
+      {
+        "text": "A KTO TO TAKI?\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "...nasze nowe figurki w Empiku. Wpadnijcie.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 140,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 62,
+    "label": "mentor_phone_call_p1",
+    "segments": [
+      {
+        "text": "TELEFON DO MENTORA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Słyszysz oddech po drugiej stronie...",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 80,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 63,
+    "label": "mentor_phone_call_p2",
+    "segments": [
+      {
+        "text": "MENTOR\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Wiem o tobie. Wiem co planujesz.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 80,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 64,
+    "label": "mentor_phone_call_p3",
+    "segments": [
+      {
+        "text": "MENTOR\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Tajne przejście prowadzi pod fortem. Współrzędne wysyłam.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 80,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 65,
+    "label": "mentor_phone_call_p4",
+    "segments": [
+      {
+        "text": "MENTOR\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Najpierw kamery. Inaczej cię złapią. Powodzenia.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 80,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 66,
+    "label": "mentor_objective_revealed",
+    "segments": [
+      {
+        "text": "🎯 NOWY CEL\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Tajne przejście oznaczone na HUDzie.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 67,
+    "label": "creeper_evo_bombs_locked",
+    "segments": [
+      {
+        "text": "BOMBY ZABLOKOWANE\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Potrzebujesz poziomu 10 (Bombiarz).",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 70,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 68,
+    "label": "creeper_evo_charge_released",
+    "segments": [
+      {
+        "text": "WYZWOLONE!\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Pełen ładunek poszedł w obszar.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 70,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 69,
+    "label": "vista_camera_down",
+    "segments": [
+      {
+        "text": "KAMERA PADŁA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Jeden ekran mniej w panelu kotów.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 75,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 70,
+    "label": "vista_panel_empty",
+    "segments": [
+      {
+        "text": "PANEL MONITORINGU PUSTY\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Już cię nie widzą. Idź teraz.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 100,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 71,
+    "label": "scout_dispatched",
+    "segments": [
+      {
+        "text": "ZWIADOWCA W DRODZE\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Wróć z raportem. Najlepiej cały.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 80,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 72,
+    "label": "scout_returned_dead",
+    "segments": [
+      {
+        "text": "RAPORT PRZEŻYŁ\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Creeper nie. Czasem tak jest.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 90,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  },
+  {
+    "id": 73,
+    "label": "scout_returned_alive",
+    "segments": [
+      {
+        "text": "ZWIADOWCA WRACA\n",
+        "color": 7208845,
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Książka z intelem leży u twoich stóp.",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "SUBTITLE",
+    "durationTicks": 90,
+    "sound": "minecraft:entity.experience_orb.pickup",
+    "contextSound": "minecraft:entity.creeper.primed",
+    "targetMode": "ALL",
+    "targetValue": "",
+    "rewardItemStr": ""
+  }
+]

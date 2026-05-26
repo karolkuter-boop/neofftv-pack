@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "label": "Napis 1",
+    "segments": [
+      {
+        "text": "Nowy napis 1",
+        "color": 16777215,
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "displayMode": "ACTIONBAR",
+    "durationTicks": 160,
+    "sound": "minecraft:ui.button.click",
+    "contextSound": "",
+    "targetMode": "ALL",
+    "targetValue": ""
+  }
+]
