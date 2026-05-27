@@ -153,8 +153,8 @@ hash = "c0e220b215d7ff3b9594acc5ce2a92cd2bfe198031fda219ad3c9f88921dc1ba"
 metafile = true
 
 [[files]]
-file = "mods/neofftv-1.31.1.jar"
-hash = "ac35c5805bfdf0002e3d6720732462b8808a0adbb72b396e14aada6d4b13dd2a"
+file = "mods/neofftv-1.32.0.jar"
+hash = "ed2962de511d547f746855f450489f403afd6a3fe3cad77a8a7535b881af766d"
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
