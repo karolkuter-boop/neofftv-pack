@@ -2,3 +2,5 @@
 # and must match what GitHub Pages serves. CRLF would invalidate every hash on Windows.
 *.toml    text eol=lf
 *.pw.toml text eol=lf
+*.json    text eol=lf
+*.txt     text eol=lf

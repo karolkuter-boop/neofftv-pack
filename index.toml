@@ -10,19 +10,19 @@ hash = "3221e9000002ccd7825546bd39024ed495a4bd39ee912ea45adc8f9f9fce07d5"
 
 [[files]]
 file = "config/neofftv_countdown_presets.json"
-hash = "08ea9a49b832e4c91a09d44ad48be397642ec1073bf16f672701669edb2a285b"
+hash = "863453c5198472d4f937ac21b0601f37f1f235c3adb690cfa6bf48fa06d2ece2"
 
 [[files]]
 file = "config/neofftv_magic_vision.json"
-hash = "8db7fd00e2803c9722e2e366fceafce4f7bd5d52a1fd8834e7db556fa9920af4"
+hash = "840975a46c6885a7720a94c58553d3ad1bcd4c18b093405422663af979a08ff8"
 
 [[files]]
 file = "config/neofftv_subtitles.json"
-hash = "4e83572f09e86b94d08af6cc486c8619386698d9d938cd84346e0e51cf04f7ee"
+hash = "29bb185d084de84e7c272c3925b86773745745c1cf9b3acf0c0e464997e32035"
 
 [[files]]
 file = "config/neofftv_subtitles_export.json"
-hash = "52642bb6bd869150fa893a480486e9f04e571fd1d82bfa043d7fc937e36a5ba0"
+hash = "e2ed21009fb1f75b0a5c030da48b76280c1a41451b9d1d5373431b2f7eb66cd6"
 
 [[files]]
 file = "mods/arc.pw.toml"
@@ -253,7 +253,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "6dad6d37d4b02001553362f82881e6b829af01f6eb80ec1ae88da153f65a3ad0"
+hash = "57744d92c112109895e47b3db63e16f67bb200fa0bd182f1496e8f80fe28b8dd"
 preserve = true
 
 [[files]]
