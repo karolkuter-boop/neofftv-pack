@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/carryon-common.toml"
+hash = "6966f8383d7b69689196cafd6626a92ceb634f97776920779fe02c6c7123be22"
+
+[[files]]
 file = "config/neofftv-client.toml"
 hash = "355b09a7139f7d5dd6349ff4a37d56e64be99d3129a68a48601f2f1736233cc4"
 
@@ -42,6 +46,11 @@ metafile = true
 [[files]]
 file = "mods/bbs-photon-addon.pw.toml"
 hash = "d353add110d3483d460ca3cee03e26ca9b978d2578e6b7a355f0ba726d16b7e9"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
 
 [[files]]
@@ -168,8 +177,8 @@ hash = "c0e220b215d7ff3b9594acc5ce2a92cd2bfe198031fda219ad3c9f88921dc1ba"
 metafile = true
 
 [[files]]
-file = "mods/neofftv-1.42.8.jar"
-hash = "17155b74314127c53ab1ab46148994c919305eb15782dfe0d2580e560b97a2cc"
+file = "mods/neofftv-1.42.9.jar"
+hash = "ab3e25ef04556871162d8065e1dae2d9aa9c46ed6cae09539a2e853a6d916752"
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"

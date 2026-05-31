@@ -1,0 +1,59 @@
+# Carry On — NeoFFTV gating config.
+#
+# Cel: TYLKO moby opętane przez Herobrine ("Straszna Metropolia", tag
+# scoreboard `neofftv_scary_mob`) dają się podnieść Carry On-em i zanieść do
+# autokaru. Żaden zwykły vanilla mob (krowa, świnia...) NIE jest podnoszalny.
+#
+# Jak to działa (zweryfikowane na źródle Carry On 2.2.4, branch 1.21.1):
+#   1. useWhitelistEntities=true + pusta lista allowedEntities  => deny-by-default:
+#      ListHandler.isPermitted() zwraca false dla KAŻDEJ encji.
+#   2. useScripts=true ładuje nasz datapack-skrypt zaszyty w modzie:
+#      data/neofftv/carryon/scripts/scary_mobs.json — dopasowuje NBT
+#      {Tags:["neofftv_scary_mob"]} (NbtUtils.compareNbt subset match) i ustawia
+#      override_checks:true, co OMIJA pustą whitelistę ORAZ blokadę hostile.
+#   => podnoszalne są dokładnie tagowane moby; Przeklęty Creeper (vanilla creeper
+#      = MONSTER) też, bez otwierania pickupHostileMobs na wszystkie potwory.
+#
+# WAŻNE: ten plik musi być IDENTYCZNY na kliencie (ta paczka) i na serwerze
+# (config/carryon-common.toml). LF-only (patrz .gitattributes — eol=lf na *.toml).
+
+[settings]
+	maxDistance = 2.5
+	# Domyślnie 1.5 / 2.0 — za mało dla Wielbłąda Zagłady (~1.7 szer., ~2.375 wys.)
+	# i większych mit-mobów. override_checks NIE omija bramki rozmiaru w survivalu,
+	# więc podbijamy, inaczej camel/duże moby byłyby nie do podniesienia.
+	maxEntityWidth = 2.0
+	maxEntityHeight = 3.0
+	blockSlownessMultiplier = 1.0
+	entitySlownessMultiplier = 1.0
+	maxEntityStackLimit = 10
+	heavyTiles = true
+	pickupAllBlocks = false
+	slownessInCreative = true
+	# Zostaje false — Przeklętego Creepera przepuszcza override_checks ze skryptu,
+	# bez robienia podnoszalnymi wszystkich potworów świata.
+	pickupHostileMobs = false
+	heavyEntities = true
+	allowBabies = false
+	useWhitelistBlocks = false
+	# true => deny-by-default dla encji; tagowane moby wraca skrypt (override_checks).
+	useWhitelistEntities = true
+	useWhitelistStacking = false
+	hitWhileCarrying = false
+	dropCarriedWhenHit = false
+	# true => ładuje data/<ns>/carryon/scripts/*.json (nasz gate jest skryptem).
+	useScripts = true
+	stackableEntities = true
+
+[whitelist]
+	# CELOWO PUSTE — nie chcemy podnosić żadnego mobа PO TYPIE (inaczej wszystkie
+	# krowy/świnie byłyby podnoszalne). Gate robi skrypt po tagu, nie po typie.
+	allowedEntities = []
+	allowedBlocks = []
+	allowedStacking = []
+
+[custom_pickup_conditions]
+	# NIE używamy — customPickupConditionsEntities to feature pod Darkhax GameStages
+	# (format modid:entity(stage)), bez dopasowania NBT/tagów. Gate jest w skrypcie.
+	customPickupConditionsBlocks = []
+	customPickupConditionsEntities = []
